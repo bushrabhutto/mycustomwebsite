@@ -1,0 +1,168 @@
+#top-nav{
+    background-color:#daac00 ;
+    color: white !important;
+    font-size: 20px !important;
+    padding-left:25px !important ;
+}
+.margin{
+    margin-left: 600px !important;
+ 
+}
+#search{
+    background-color:#fcc302 ;
+    color: aliceblue;
+    border: 0px;
+    border-radius: 0px;
+    position: relative;
+    left: 47px;
+    box-shadow: 5px 5px 5px #00000021;
+
+}
+#search::placeholder{
+    color: white;
+}
+#searchbtn{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+    border: 0px;
+    border-radius: 0px;
+}
+@media only screen and (max-width:768px){
+#searchfor{
+    margin-bottom: 30px;
+    margin-top:20px ;
+    position: relative;
+    left: -20px;
+}
+}
+@media only screen and (max-width:500px){
+    #logo{
+        width: 180px;
+    }
+    #top-nav{
+        padding: 0px;
+    }
+
+}
+#banner{
+    background-color: #fcc302;
+    padding-bottom: 20px;
+}
+#bannerimg{
+    margin-top: 200px;
+  
+    mix-blend-mode: darken;
+}
+#banner-text h1{
+color: white;
+font-size: 70px;
+margin-top: 100px;
+font-family: "Lilita One", sans-serif;
+font-weight: 400;
+}
+
+
+#banner-text p{
+   font-size: 20px;
+   font-weight: bold;
+font-family: "Roboto Slab", serif;
+margin-top: 30px;
+margin-bottom: 20px;
+color: white;
+}
+#button1{
+    background-color: #00bec9;
+    padding: 10px;
+    margin-right: 30px;
+    color: white;
+    font-weight: bold;
+}
+#button2{
+    background-color: #dcf2f3;
+    padding: 10px;
+    color: #fcc302;
+    font-weight: bold;
+}
+@media only screen and (max-width:1300px){
+    #banner-text h1{
+        font-size: 50px;
+    }
+    #banner{
+        padding-bottom: 70px;
+    }
+}
+@media only screen and (max-width:900px){
+    #banner-text h1{
+        font-size: 40px;
+    }
+    #bannerimg img{
+padding-top: 70px;
+    }
+    #button2 {
+        margin-top: 50px;
+    }
+}
+#service-text{
+    padding-top:10% ;
+    padding-bottom: 5%;
+    font-family: "Roboto Slab", serif;
+ font-weight: bold;
+ color: #00bec9;
+ 
+}
+#service-btn{
+    color: white;
+    background-color: #fcc302;
+    border: 5px solid #00bec9;
+    
+}
+#service-img img{
+  padding: 5%;  
+  margin-top:100px ;
+}
+@media only screen and(max-width:768px){
+    #service-img{
+        padding: 10%;
+    }
+}
+#more{
+    background-image: url("./images/edupic.jpg");
+    border-image-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-position: cover;
+    height: 300px;
+
+}
+#footer{
+    background-color: #c5baba;
+    padding-top: 80px;
+    padding-bottom: 70px;
+   
+}
+#footer a{
+    color: black;
+    text-decoration: none;
+}
+#footer-form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#searchbox{
+background-color: #fcc302;
+width: 300px;
+padding: 10px;
+position: relative;
+left: 10px;
+}
+#submit{
+background-color: #00bec9;
+padding: 10px 20px;
+}
+.social{
+    font-size: 25px;
+}
+
+
